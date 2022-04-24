@@ -30,12 +30,14 @@ document.getElementById("btn-play").addEventListener("click", function() {
         default:
             index = 49;
     }
-
+    //Riichiama funzione
     generateGrid(choice, index) 
 })
 
 
 
+
+//FUNCTIONS
 // Creare 100 celle che compongono la griglia
 function generateGrid (className, cellNumber) {
     console.log(className, cellNumber)
